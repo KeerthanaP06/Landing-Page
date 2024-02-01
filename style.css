@@ -1,0 +1,226 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+section {
+    min-height: 100vh;
+    padding: 150px;
+  }
+  
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+.logo {
+    font-size: 2.5rem;
+    color: rgb(84, 17, 97);
+    font-weight: 600;
+    cursor: default;
+  }
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background:  rgb(121, 119, 228);
+  }
+  .home-image1 {
+    position: fixed;
+    top: 35%;
+    left: 2%;
+    transform: translateY(-50%);
+    width: 20vw;
+  }
+  .home-image2 {
+    position: fixed;
+    top: 72%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 25vw;
+  }
+  .home-image3 {
+    position: fixed;
+    top: 40%;
+    right: 20%;
+    transform: translateY(-50%);
+    width: 5vw;
+  }
+  .home-image4 {
+    position: fixed;
+    top: 75%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 6vw;
+  }
+  
+.navbar a {
+    font-size: 24px;
+    color: rgb(79, 7, 121);
+    margin-left: 45px;
+    transition: 0.3s;
+  }
+  
+.navbar a:hover {
+    color: rgb(204, 163, 243);
+  }
+  .content h1{
+    display: flex;
+   position: fixed;
+    text-align: center;
+   right:28%;
+   top:15%;
+   font-weight: 600;
+   font-size: 60px;
+   font-family: oblique;
+   color: aliceblue;
+  }
+  .content h2{
+    position: fixed;
+    text-align: center;
+    right:28%;
+   top:25%;
+  color: #421c58;
+   font-style: italic;
+  }
+  .content h3{
+    position: fixed;
+    text-align: center;
+    color:  rgb(47, 17, 87);
+    right:40%;
+   top:33%;
+   font-style: normal;
+  }
+  .content p{
+    position: fixed;
+    text-align: justify;
+    right:30%;
+   top:32%;
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;
+   border: 5px solid #ddd;
+   background-color: #884aac;
+   color: bisque;
+   border-radius: 8px;
+   font-size: 16px;
+   line-height: 1.6;
+  }
+  
+
+  .choose {
+    position: fixed;
+    bottom: 4%;
+    left: 6%;
+    width: 300px;
+    padding: 20px;
+    background-color:  #5d2c79;
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.choose h1 {
+    color:bisque;
+    font-size: 200;
+}
+
+.choose ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.choose li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.cv {
+    position: fixed;
+    top: 56%;
+    right: 58%;
+    transform: translateY(-50%);
+    padding: 7px;
+    background: rgb(47, 17, 87);
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem rgb(121, 76, 245);
+    font-size: 15px;
+    color: bisque;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+.explore p{
+    position: fixed;
+    text-align: justify;
+    right:34%;
+   bottom:7%;
+   max-width: 500px;
+   margin: 50px auto;
+   padding: 20px;
+   border: 5px solid #ddd;
+   background-color: #4b2363;
+   color: bisque;
+   border-radius: 8px;
+   font-size: 16px;
+   line-height: 1.6;
+  } 
+  .social-media {
+    position: fixed;
+    bottom: 3%;
+    right: 40%;
+}
+.follow-us {
+    position: fixed;
+    bottom:3.5%;
+    right: 60%;
+    color: bisque;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.hand-emoji {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.social-media {
+    position: fixed;
+    bottom: 3.5%;
+    right: 45%;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid rgb(30, 14, 100);
+    border-radius: 50%;
+    font-size: 1rem;
+    color: rgb(243, 243, 245);
+    margin: 0 1.5rem 0 0;
+}
+
+.social-media a:hover {
+    background: rgb(121, 119, 228);
+    color: bisque;
+    box-shadow: 0 0 1rem violet;
+}
